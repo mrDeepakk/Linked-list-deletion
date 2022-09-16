@@ -34,6 +34,7 @@ void deleteEndNode(){
     }
     node*toDelete=temp->next;
     temp->next=NULL;
+    delete toDelete;
 }
 
 void display(){
